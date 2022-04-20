@@ -1,0 +1,11 @@
+fig, ax = plt.subplots(figsize =(20, 10))
+#ax.plot(name,vax)
+ax.plot(name,deaths)
+ax.set_ylabel("Deaths")
+ax.set_xlabel("Continents")
+#plt.show()
+
+fig, ax = plt.subplots(figsize =(20, 10))
+ax.plot(name,vax)
+ax.set_ylabel("Vaccinated")
+ax.set_xlabel("Continents")
